@@ -64,7 +64,7 @@ Make sure to cache these responses (assume the endpoint is expensive to call) in
 
 After both these calls have returned take **only** the hotels that appear in both the responses and return an html table with the data. (you can display the data in anyway you wish as long as the data is in a table with a row for each entry)
 
-For example, if the first call returned hotels with id [10,12] with SnapTravel prices 192.34 and 112.33 and the second call returned hotels [12,13] with Hotels.com prices 132.11 and 321.62 respectively, you would only render hotel 2 in the list with a Hotels.com price of 112.33 and a SnapTravel price of 132.11
+For example, if the first call returned hotels with id [10,12] with SnapTravel prices 192.34 and 112.33 and the second call returned hotels [12,13] with Hotels.com prices 132.11 and 321.62 respectively, you would only render hotel 12 in the list with a SnapTravel price of 112.33 and a Hotels.com price of 132.11
 
 ![](https://i.imgur.com/fqT65hx.png)
 
