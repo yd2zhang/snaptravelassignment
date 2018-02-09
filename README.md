@@ -1,8 +1,8 @@
 # Fullstack Demo
 This is our task for potential new fullstack engineers. We expect this task to take less than a few hours of work
 
-Please clone this repo, create your own branch 'firstname-lastname' and make a starting commit with the message 'start'.
-Commit your code to your branch and push your branch to origin when you are finished. Thanks 😄
+Please fork this repo and make a starting commit with the message 'start'.
+Commit your finished code and push to your forked repo when you are finished. Thanks 😄
 
 ## TODO
 
