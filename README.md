@@ -10,7 +10,7 @@ Implement a simple web app that serves html.
 
 **Step 1**
 
-The app should load an form with the following fields
+The app should load a form with the following fields
 - City string input
 - Checkin string input
 - Checkout string input
@@ -31,7 +31,7 @@ When the form is submitted make **2 HTTP POST requests** in parallel to 'https:/
 }
 ```
 
-1) This above return SnapTravel rates for hotels in the city
+1) The above returns SnapTravel rates for hotels in the city
 
 ```
 {
@@ -42,9 +42,9 @@ When the form is submitted make **2 HTTP POST requests** in parallel to 'https:/
 }
 ```
 
-2) This above return Hotels.com rates for hotels in the city
+2) The above returns Hotels.com rates for hotels in the city
 
-The responses will be a json which has an array of hotels and prices.
+The responses will be in json and each response will have an array of hotels and prices.
 ```
 [{
   id : 12,
