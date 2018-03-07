@@ -6,7 +6,7 @@ Commit your finished code and push to your forked repo when you are finished. Th
 
 ## TODO
 
-Implement a simple web app that serves html.
+Implement a simple backend web app that serves html.
 
 **Step 1**
 
@@ -60,7 +60,7 @@ The responses will be in json and each response will have an array of hotels and
 ]
 ```
 
-Make sure to cache these responses (assume the endpoint is expensive to call) in whatever way that seems fit using whatever cache that seems fit (db, redis, in memory etc)
+Make sure to cache these responses in the server (assume the endpoint is expensive to call) in whatever way that seems fit using whatever cache that seems fit (db, redis, in memory etc)
 
 **Step 3**
 
