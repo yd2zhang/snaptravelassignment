@@ -6,7 +6,7 @@ Commit your finished code and push to your forked repo when you are finished. Th
 
 ## TODO
 
-Implement a simple backend web app that serves html.
+Implement a simple backend web app that serves html. Please note that you must make a web server (eg, Express, Flask, Rails, etc), not just a pure front-end app.
 
 **Step 1**
 
