@@ -111,7 +111,7 @@ function sendResponse(response, results) {
 		snaptravel = results.snaptravel[i];
 		retail = results.retail[i];
 		retail.snapprice = snaptravel.price;
-		retail.amenities = retail.amenities.join("\n");
+		retail.amenities = retail.amenities.join("<br/>");
 		row.push(format("<tr><th>{id}</th><th>{hotel_name}</th><th>{num_reviews}</th><th>{address}</th><th>{num_stars}</th><th>{amenities}</th><th><img src={image_url}/></th><th>{snapprice}</th><th>{price}</th></tr>", retail));
 	}
 	row.push('</table>')
